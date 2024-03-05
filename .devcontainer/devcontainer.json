@@ -1,0 +1,22 @@
+{
+  "name": "rails_cli",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "runArgs": [
+    "--name=gem-rails_cli",
+    "--tty"
+  ],
+  "shutdownAction": "stopContainer",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "misogi.ruby-rubocop",
+        "castwide.solargraph",
+        "Shopify.ruby-lsp"
+      ]
+    }
+  }
+}

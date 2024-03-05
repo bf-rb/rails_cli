@@ -1,0 +1,7 @@
+AllCops:
+  TargetRubyVersion: 3.2
+  Exclude:
+    - 'demo/**/*'
+
+Layout/LineLength:
+  Max: 120
