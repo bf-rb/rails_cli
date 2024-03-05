@@ -1,35 +1,47 @@
-# Dd::Cli
+# RailsCLI
 
-TODO: Delete this and the text below, and describe your gem
+[![Gem](https://img.shields.io/gem/v/rails_cli?color=e9573f&include_prereleases&logo=rubygems&style=for-the-badge)](https://rubygems.org/gems/rails_cli)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/dd/cli`. To experiment with that code, run `bin/console` for an interactive prompt.
+Rails CLI gem simplifies the initiation of Rails projects by offering a guided interface for
+selecting configurations, making it a must-have tool for junior developers and rapid project prototyping.
+
+## Used technologies, API, tools, etc
+
+[ruby-logo]: https://img.shields.io/badge/Ruby-cc342d.svg?style=flat&logo=ruby&logoColor=fff
+[git-logo]: https://img.shields.io/badge/Git-000.svg?style=flat&logo=git&logoColor=f54d27
+[rubocop-logo]: https://img.shields.io/badge/RuboCop-f5f5f5.svg?style=flat&logo=rubocop&logoColor=000
+[vs-code-logo]: https://img.shields.io/badge/VS%20Code-2c2c32.svg?style=flat&logo=visualstudiocode&logoColor=22a8f1
+[docker-logo]: https://img.shields.io/badge/Docker-003f8c.svg?style=flat&logo=docker&logoColor=fff
+[ruby-gems-logo]: https://img.shields.io/badge/Ruby%20Gems-e9573f.svg?style=flat&logo=rubygems&logoColor=fff
+
+[![ruby-logo]](https://www.ruby-lang.org/) [![git-logo]](https://git-scm.com/) [![rubocop-logo]](https://rubocop.org/) [![vs-code-logo]](https://code.visualstudio.com/) [![docker-logo]](https://www.docker.com/) [![ruby-gems-logo]](https://rubygems.org/)
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+```sh
+bundle add rails_cli
+```
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+```sh
+gem install rails_cli
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```sh
+rails_cli
+```
+or
+```sh
+bundler exec rails_cli
+```
+---
+Console:
 
-## Development
+[console]: assets/console-v0.0.1.jpeg
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/dd-cli.
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+![console]
